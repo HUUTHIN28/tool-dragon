@@ -1,0 +1,23 @@
+{
+  "name": "demo-video",
+  "version": "0.1.0",
+  "description": "Plan, record, and package browser product demo videos from Codex.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Demo Video",
+    "shortDescription": "Create browser demo videos with Playwright and ffmpeg.",
+    "longDescription": "Demo Video gives Codex a local workflow for planning product demos, recording browser interactions with Playwright, generating narration scripts/subtitles, and exporting client-ready video files with ffmpeg.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "browser automation",
+      "video recording",
+      "voiceover scripting",
+      "ffmpeg export"
+    ],
+    "defaultPrompt": "Create a browser demo video for this product."
+  }
+}

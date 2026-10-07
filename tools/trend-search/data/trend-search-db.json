@@ -1,0 +1,843 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-23T08:53:16.139Z",
+  "trend_topics": [
+    {
+      "id": "topic_ai_tool-safety",
+      "category": "ai",
+      "name": "Tool Safety",
+      "canonicalName": "tool safety",
+      "summary": "3 mention(s) across 3 source(s). Lead signal: Open-source AI agents move from demos to reliable browser workflows. Sources: Seed AI Lab Notes, Seed Dev Tools, Seed Model Ops.",
+      "keywords": [
+        "tool safety",
+        "tool",
+        "safety"
+      ],
+      "score": 73,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 30,
+        "engagement": 30,
+        "novelty": 21,
+        "competition": 8,
+        "raw": 73
+      },
+      "mentionCount": 3,
+      "sourceCount": 3,
+      "itemIds": [
+        "raw_249ce9980776",
+        "raw_4934b4c17870",
+        "raw_502c706e8a40"
+      ],
+      "evidence": [
+        {
+          "id": "raw_502c706e8a40",
+          "title": "Open-source AI agents move from demos to reliable browser workflows",
+          "source": "Seed AI Lab Notes",
+          "url": "seed://ai/agents-browser-workflows",
+          "publishedAt": "2026-06-23T02:53:16.092Z"
+        },
+        {
+          "id": "raw_249ce9980776",
+          "title": "Agentic workflows focus on evals, memory, and tool safety",
+          "source": "Seed Model Ops",
+          "url": "seed://ai/agentic-workflows-evals-safety",
+          "publishedAt": "2026-06-22T01:53:16.092Z"
+        },
+        {
+          "id": "raw_4934b4c17870",
+          "title": "Tool safety becomes a core AI agent feature for enterprise pilots",
+          "source": "Seed Dev Tools",
+          "url": "seed://ai/tool-safety-enterprise-pilots",
+          "publishedAt": "2026-06-20T19:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-20T19:53:16.092Z",
+      "lastSeenAt": "2026-06-23T02:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "topic_ai_model-evals",
+      "category": "ai",
+      "name": "Model Evals",
+      "canonicalName": "model evals",
+      "summary": "2 mention(s) across 2 source(s). Lead signal: Open-source AI agents move from demos to reliable browser workflows. Sources: Seed AI Lab Notes, Seed Research Notes.",
+      "keywords": [
+        "model evals",
+        "model",
+        "evals"
+      ],
+      "score": 66,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 24,
+        "engagement": 28,
+        "novelty": 21,
+        "competition": 7,
+        "raw": 66
+      },
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "itemIds": [
+        "raw_502c706e8a40",
+        "raw_c6345bf7a548"
+      ],
+      "evidence": [
+        {
+          "id": "raw_502c706e8a40",
+          "title": "Open-source AI agents move from demos to reliable browser workflows",
+          "source": "Seed AI Lab Notes",
+          "url": "seed://ai/agents-browser-workflows",
+          "publishedAt": "2026-06-23T02:53:16.092Z"
+        },
+        {
+          "id": "raw_c6345bf7a548",
+          "title": "Model evals get bundled into agentic workflow launches",
+          "source": "Seed Research Notes",
+          "url": "seed://ai/model-evals-agent-launches",
+          "publishedAt": "2026-06-19T22:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-19T22:53:16.092Z",
+      "lastSeenAt": "2026-06-23T02:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "topic_ai_agentic-workflow",
+      "category": "ai",
+      "name": "Agentic Workflows",
+      "canonicalName": "agentic workflow",
+      "summary": "1 mention(s) across 1 source(s). Lead signal: Agentic workflows focus on evals, memory, and tool safety. Sources: Seed Model Ops.",
+      "keywords": [
+        "agentic workflow",
+        "agentic",
+        "workflows"
+      ],
+      "score": 58,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 28,
+        "engagement": 23,
+        "novelty": 18,
+        "competition": 11,
+        "raw": 58
+      },
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "itemIds": [
+        "raw_249ce9980776"
+      ],
+      "evidence": [
+        {
+          "id": "raw_249ce9980776",
+          "title": "Agentic workflows focus on evals, memory, and tool safety",
+          "source": "Seed Model Ops",
+          "url": "seed://ai/agentic-workflows-evals-safety",
+          "publishedAt": "2026-06-22T01:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-22T01:53:16.092Z",
+      "lastSeenAt": "2026-06-22T01:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "topic_ai_ai-agents",
+      "category": "ai",
+      "name": "AI Agents",
+      "canonicalName": "ai agents",
+      "summary": "3 mention(s) across 3 source(s). Lead signal: Open-source AI agents move from demos to reliable browser workflows. Sources: Seed AI Lab Notes, Seed Dev Tools, Seed Model Ops.",
+      "keywords": [
+        "ai agents",
+        "ai",
+        "agents"
+      ],
+      "score": 56,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 30,
+        "engagement": 30,
+        "novelty": 18,
+        "competition": 22,
+        "raw": 56
+      },
+      "mentionCount": 3,
+      "sourceCount": 3,
+      "itemIds": [
+        "raw_249ce9980776",
+        "raw_4934b4c17870",
+        "raw_502c706e8a40"
+      ],
+      "evidence": [
+        {
+          "id": "raw_502c706e8a40",
+          "title": "Open-source AI agents move from demos to reliable browser workflows",
+          "source": "Seed AI Lab Notes",
+          "url": "seed://ai/agents-browser-workflows",
+          "publishedAt": "2026-06-23T02:53:16.092Z"
+        },
+        {
+          "id": "raw_249ce9980776",
+          "title": "Agentic workflows focus on evals, memory, and tool safety",
+          "source": "Seed Model Ops",
+          "url": "seed://ai/agentic-workflows-evals-safety",
+          "publishedAt": "2026-06-22T01:53:16.092Z"
+        },
+        {
+          "id": "raw_4934b4c17870",
+          "title": "Tool safety becomes a core AI agent feature for enterprise pilots",
+          "source": "Seed Dev Tools",
+          "url": "seed://ai/tool-safety-enterprise-pilots",
+          "publishedAt": "2026-06-20T19:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-20T19:53:16.092Z",
+      "lastSeenAt": "2026-06-23T02:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "topic_ai_ai-automation",
+      "category": "ai",
+      "name": "AI Automation",
+      "canonicalName": "ai automation",
+      "summary": "1 mention(s) across 1 source(s). Lead signal: Small businesses test AI agent copilots for lead research. Sources: Seed Founder Brief.",
+      "keywords": [
+        "ai automation",
+        "ai",
+        "automation"
+      ],
+      "score": 55,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 29,
+        "engagement": 22,
+        "novelty": 18,
+        "competition": 14,
+        "raw": 55
+      },
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "itemIds": [
+        "raw_f2c94734724f"
+      ],
+      "evidence": [
+        {
+          "id": "raw_f2c94734724f",
+          "title": "Small businesses test AI agent copilots for lead research",
+          "source": "Seed Founder Brief",
+          "url": "seed://ai/agent-copilots-lead-research",
+          "publishedAt": "2026-06-22T16:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-22T16:53:16.092Z",
+      "lastSeenAt": "2026-06-22T16:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "topic_ai_ai-copilot",
+      "category": "ai",
+      "name": "AI Copilot",
+      "canonicalName": "ai copilot",
+      "summary": "1 mention(s) across 1 source(s). Lead signal: AI copilots become workflow-specific instead of generic chat boxes. Sources: Seed Product Radar.",
+      "keywords": [
+        "ai copilot",
+        "ai",
+        "copilot"
+      ],
+      "score": 51,
+      "scoreFormula": "growth + engagement + novelty - competition",
+      "components": {
+        "growth": 28,
+        "engagement": 22,
+        "novelty": 18,
+        "competition": 17,
+        "raw": 51
+      },
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "itemIds": [
+        "raw_c47c430b8085"
+      ],
+      "evidence": [
+        {
+          "id": "raw_c47c430b8085",
+          "title": "AI copilots become workflow-specific instead of generic chat boxes",
+          "source": "Seed Product Radar",
+          "url": "seed://ai/workflow-specific-copilots",
+          "publishedAt": "2026-06-21T12:53:16.092Z"
+        }
+      ],
+      "firstSeenAt": "2026-06-21T12:53:16.092Z",
+      "lastSeenAt": "2026-06-21T12:53:16.092Z",
+      "updatedAt": "2026-06-23T08:53:16.092Z"
+    }
+  ],
+  "trend_angles": [
+    {
+      "id": "angle_topic_ai_agentic-workflow_explainer",
+      "topicId": "topic_ai_agentic-workflow",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao Agentic Workflows dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "Agentic Workflows khong chi la mot tu khoa moi; tin hieu dang lap lai qua 1 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: Agentic workflows focus on evals, memory, and tool safety",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 57,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_agentic-workflow_playbook",
+      "topicId": "topic_ai_agentic-workflow",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung Agentic Workflows cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien Agentic Workflows thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 52,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_agentic-workflow_contrarian",
+      "topicId": "topic_ai_agentic-workflow",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua Agentic Workflows ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 11.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 48,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_agentic-workflow_comparison",
+      "topicId": "topic_ai_agentic-workflow",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "Agentic Workflows: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet Agentic Workflows thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 45,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-agents_explainer",
+      "topicId": "topic_ai_ai-agents",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao AI Agents dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "AI Agents khong chi la mot tu khoa moi; tin hieu dang lap lai qua 3 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: Agentic workflows focus on evals, memory, and tool safety",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 55,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-agents_playbook",
+      "topicId": "topic_ai_ai-agents",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung AI Agents cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien AI Agents thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 50,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-agents_contrarian",
+      "topicId": "topic_ai_ai-agents",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua AI Agents ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 22.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 46,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-agents_comparison",
+      "topicId": "topic_ai_ai-agents",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "AI Agents: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet AI Agents thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 44,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-automation_explainer",
+      "topicId": "topic_ai_ai-automation",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao AI Automation dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "AI Automation khong chi la mot tu khoa moi; tin hieu dang lap lai qua 1 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: Small businesses test AI agent copilots for lead research",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 54,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-automation_playbook",
+      "topicId": "topic_ai_ai-automation",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung AI Automation cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien AI Automation thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 50,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-automation_contrarian",
+      "topicId": "topic_ai_ai-automation",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua AI Automation ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 14.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 45,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-automation_comparison",
+      "topicId": "topic_ai_ai-automation",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "AI Automation: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet AI Automation thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 43,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-copilot_explainer",
+      "topicId": "topic_ai_ai-copilot",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao AI Copilot dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "AI Copilot khong chi la mot tu khoa moi; tin hieu dang lap lai qua 1 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: AI copilots become workflow-specific instead of generic chat boxes",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 50,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-copilot_playbook",
+      "topicId": "topic_ai_ai-copilot",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung AI Copilot cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien AI Copilot thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 46,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-copilot_contrarian",
+      "topicId": "topic_ai_ai-copilot",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua AI Copilot ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 17.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 42,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_ai-copilot_comparison",
+      "topicId": "topic_ai_ai-copilot",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "AI Copilot: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet AI Copilot thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 40,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_model-evals_explainer",
+      "topicId": "topic_ai_model-evals",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao Model Evals dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "Model Evals khong chi la mot tu khoa moi; tin hieu dang lap lai qua 2 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: Open-source AI agents move from demos to reliable browser workflows",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 65,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_model-evals_playbook",
+      "topicId": "topic_ai_model-evals",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung Model Evals cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien Model Evals thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 59,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_model-evals_contrarian",
+      "topicId": "topic_ai_model-evals",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua Model Evals ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 7.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 54,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_model-evals_comparison",
+      "topicId": "topic_ai_model-evals",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "Model Evals: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet Model Evals thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 51,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_tool-safety_explainer",
+      "topicId": "topic_ai_tool-safety",
+      "category": "ai",
+      "kind": "explainer",
+      "title": "Vi sao Tool Safety dang tang toc",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "short explainer",
+      "hook": "Tool Safety khong chi la mot tu khoa moi; tin hieu dang lap lai qua 3 mention.",
+      "outline": [
+        "Mo dau bang tin hieu chinh: Agentic workflows focus on evals, memory, and tool safety",
+        "Giai thich dieu da thay doi trong hanh vi nguoi dung hoac buyer",
+        "Chi ra mot cach ung dung thuc te trong 7 ngay toi"
+      ],
+      "rationale": "Explainer hop voi topic co growth va novelty cao.",
+      "score": 72,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_tool-safety_playbook",
+      "topicId": "topic_ai_tool-safety",
+      "category": "ai",
+      "kind": "playbook",
+      "title": "Playbook ung dung Tool Safety cho founder, builder va doi ngu san pham AI",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "checklist",
+      "hook": "Bien Tool Safety thanh mot thu nghiem nho, do duoc, it rui ro.",
+      "outline": [
+        "Xac dinh use case co dau ra ro rang",
+        "Dat baseline truoc khi thu nghiem",
+        "Chay pilot nho va ghi lai metric can cai thien"
+      ],
+      "rationale": "Playbook phu hop khi can bien trend thanh hanh dong.",
+      "score": 66,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_tool-safety_contrarian",
+      "topicId": "topic_ai_tool-safety",
+      "category": "ai",
+      "kind": "contrarian",
+      "title": "Mat trai cua Tool Safety ma nhieu nguoi bo qua",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "contrarian post",
+      "hook": "Trend nay dang nong, nhung competition score la 8.",
+      "outline": [
+        "Neu ly do trend hap dan",
+        "Neu diem de bi thoi phong hoac kho scale",
+        "Dua ra dieu kien de van nen theo duoi"
+      ],
+      "rationale": "Contrarian angle giup tranh noi dung trung lap khi competition tang.",
+      "score": 60,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    },
+    {
+      "id": "angle_topic_ai_tool-safety_comparison",
+      "topicId": "topic_ai_tool-safety",
+      "category": "ai",
+      "kind": "comparison",
+      "title": "Tool Safety: cach moi so voi cach cu",
+      "audience": "founder, builder va doi ngu san pham AI",
+      "format": "comparison table",
+      "hook": "Nguoi doc can biet Tool Safety thay doi workflow nao, khong chi ten goi nao moi.",
+      "outline": [
+        "Cot 1: cach lam cu",
+        "Cot 2: cach dang noi len",
+        "Cot 3: khi nao nen doi"
+      ],
+      "rationale": "Comparison lam ro novelty va giup user quyet dinh nhanh.",
+      "score": 57,
+      "generatedAt": "2026-06-23T08:53:16.092Z"
+    }
+  ],
+  "raw_items": [
+    {
+      "id": "raw_502c706e8a40",
+      "category": "ai",
+      "source": "Seed AI Lab Notes",
+      "sourceType": "seed",
+      "title": "Open-source AI agents move from demos to reliable browser workflows",
+      "summary": "Builders are pairing model evals, memory, and tool safety to make AI agents useful for daily operations.",
+      "url": "seed://ai/agents-browser-workflows",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-23T02:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 92,
+        "reactions": 432,
+        "comments": 74,
+        "shares": 41
+      },
+      "keywords": []
+    },
+    {
+      "id": "raw_f2c94734724f",
+      "category": "ai",
+      "source": "Seed Founder Brief",
+      "sourceType": "seed",
+      "title": "Small businesses test AI agent copilots for lead research",
+      "summary": "Teams want AI automation that gathers prospects, checks websites, and drafts context before sales calls.",
+      "url": "seed://ai/agent-copilots-lead-research",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-22T16:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 74,
+        "reactions": 348,
+        "comments": 59,
+        "shares": 33
+      },
+      "keywords": []
+    },
+    {
+      "id": "raw_249ce9980776",
+      "category": "ai",
+      "source": "Seed Model Ops",
+      "sourceType": "seed",
+      "title": "Agentic workflows focus on evals, memory, and tool safety",
+      "summary": "The next AI agents conversation is shifting toward reliability, audit trails, and scoped tool permissions.",
+      "url": "seed://ai/agentic-workflows-evals-safety",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-22T01:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 81,
+        "reactions": 381,
+        "comments": 65,
+        "shares": 36
+      },
+      "keywords": []
+    },
+    {
+      "id": "raw_c47c430b8085",
+      "category": "ai",
+      "source": "Seed Product Radar",
+      "sourceType": "seed",
+      "title": "AI copilots become workflow-specific instead of generic chat boxes",
+      "summary": "Vertical copilots for support, research, and internal ops are gaining attention because they own a measurable job.",
+      "url": "seed://ai/workflow-specific-copilots",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-21T12:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 68,
+        "reactions": 320,
+        "comments": 54,
+        "shares": 31
+      },
+      "keywords": []
+    },
+    {
+      "id": "raw_4934b4c17870",
+      "category": "ai",
+      "source": "Seed Dev Tools",
+      "sourceType": "seed",
+      "title": "Tool safety becomes a core AI agent feature for enterprise pilots",
+      "summary": "IT teams want permission scopes, approvals, and rollback logs before letting AI agents touch production systems.",
+      "url": "seed://ai/tool-safety-enterprise-pilots",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-20T19:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 63,
+        "reactions": 296,
+        "comments": 50,
+        "shares": 28
+      },
+      "keywords": []
+    },
+    {
+      "id": "raw_c6345bf7a548",
+      "category": "ai",
+      "source": "Seed Research Notes",
+      "sourceType": "seed",
+      "title": "Model evals get bundled into agentic workflow launches",
+      "summary": "Teams are publishing eval harnesses next to AI agent releases to show reliability under repeatable tasks.",
+      "url": "seed://ai/model-evals-agent-launches",
+      "author": "trend-search seed",
+      "publishedAt": "2026-06-19T22:53:16.092Z",
+      "collectedAt": "2026-06-23T08:53:16.092Z",
+      "engagement": {
+        "score": 59,
+        "reactions": 277,
+        "comments": 47,
+        "shares": 27
+      },
+      "keywords": []
+    }
+  ],
+  "runs": [
+    {
+      "id": "run_091d106ecb9c",
+      "command": "run-once",
+      "startedAt": "2026-06-23T08:53:16.092Z",
+      "endedAt": "2026-06-23T08:53:16.139Z",
+      "status": "ok",
+      "category": "ai",
+      "configPath": "/home/thinnh2/.understand-anything/tools/trend-search/config.json",
+      "dbPath": "/home/thinnh2/.understand-anything/tools/trend-search/data/trend-search-db.json",
+      "stats": {
+        "rawItemsCollected": 6,
+        "rawItemsTotal": 6,
+        "topicCount": 6,
+        "angleCount": 24,
+        "warnings": 0
+      }
+    }
+  ]
+}

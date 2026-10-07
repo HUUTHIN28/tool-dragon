@@ -1,0 +1,238 @@
+{
+  "report": {
+    "title": "AI Radar Digest",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "hours": 24,
+    "maxItems": 40,
+    "maxNews": 40,
+    "maxReddit": 20,
+    "maxVideos": 20,
+    "maxPerSource": 6,
+    "requireKeyword": true,
+    "sendWhenEmpty": false
+  },
+  "request": {
+    "timeoutMs": 20000
+  },
+  "stateFile": ".ai-news-radar-state.json",
+  "translation": {
+    "enabled": false,
+    "provider": "auto",
+    "targetLanguage": "Vietnamese",
+    "targetLangCode": "vi",
+    "apiKeyEnv": "OPENAI_API_KEY",
+    "modelEnv": "OPENAI_TRANSLATION_MODEL",
+    "model": "gpt-4.1-mini"
+  },
+  "keywords": [
+    "ai",
+    "artificial intelligence",
+    "agent",
+    "agents",
+    "agentic",
+    "llm",
+    "large language model",
+    "openai",
+    "chatgpt",
+    "anthropic",
+    "claude",
+    "gemini",
+    "deepmind",
+    "copilot",
+    "langchain",
+    "langgraph",
+    "llamaindex",
+    "crewai",
+    "autogen",
+    "mcp"
+  ],
+  "newsFeeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/"
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "https://export.arxiv.org/rss/cs.AI"
+    },
+    {
+      "name": "arXiv cs.CL",
+      "url": "https://export.arxiv.org/rss/cs.CL"
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/"
+    },
+    {
+      "name": "Wired AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.com/rss/"
+    },
+    {
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "requireKeyword": true
+    },
+    {
+      "name": "Artificial Intelligence News",
+      "url": "https://www.artificialintelligence-news.com/feed/"
+    },
+    {
+      "name": "Import AI",
+      "url": "https://importai.substack.com/feed/"
+    },
+    {
+      "name": "AI Weekly",
+      "url": "https://aiweekly.co/issues.rss"
+    },
+    {
+      "name": "Analytics Insight",
+      "url": "https://analyticsinsight.net/feed/",
+      "requireKeyword": true
+    },
+    {
+      "name": "Synced Review",
+      "url": "https://syncedreview.com/feed/"
+    },
+    {
+      "name": "Engadget AI",
+      "url": "https://www.engadget.com/rss.xml",
+      "requireKeyword": true
+    },
+    {
+      "name": "The Neuron",
+      "url": "https://www.theneuron.ai/feed"
+    }
+  ],
+  "siteMaps": [
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/sitemap.xml",
+      "include": ["/news/"]
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/sitemap.xml",
+      "include": ["/discover/blog/"]
+    },
+    {
+      "name": "LlamaIndex Blog",
+      "url": "https://www.llamaindex.ai/sitemap-index.xml",
+      "include": ["/blog/"]
+    },
+    {
+      "name": "DeepLearning.AI The Batch",
+      "url": "https://www.deeplearning.ai/sitemap.xml",
+      "include": ["/the-batch/"],
+      "exclude": ["/tag/"]
+    }
+  ],
+  "jsonSources": [
+    {
+      "name": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/api/daily_papers",
+      "type": "huggingFaceDailyPapers",
+      "maxItems": 30
+    }
+  ],
+  "redditFeeds": [
+    {
+      "name": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/new/.rss",
+      "timeoutMs": 8000
+    },
+    {
+      "name": "Reddit r/OpenAI",
+      "url": "https://www.reddit.com/r/OpenAI/new/.rss",
+      "timeoutMs": 8000
+    },
+    {
+      "name": "Reddit r/ClaudeAI",
+      "url": "https://www.reddit.com/r/ClaudeAI/new/.rss",
+      "timeoutMs": 8000
+    },
+    {
+      "name": "Reddit r/artificial",
+      "url": "https://www.reddit.com/r/artificial/new/.rss",
+      "requireKeyword": true,
+      "timeoutMs": 8000
+    },
+    {
+      "name": "Reddit search: AI agents",
+      "url": "https://www.reddit.com/search.rss?q=%22AI%20agents%22&sort=new&t=day",
+      "timeoutMs": 8000
+    },
+    {
+      "name": "Reddit search: agentic AI",
+      "url": "https://www.reddit.com/search.rss?q=%22agentic%20AI%22&sort=new&t=day",
+      "timeoutMs": 8000
+    }
+  ],
+  "youtubeFeeds": [
+    {
+      "name": "OpenAI YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
+      "timeoutMs": 10000
+    },
+    {
+      "name": "Google DeepMind YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "timeoutMs": 10000
+    }
+  ],
+  "youtubeSearch": {
+    "enabled": false,
+    "apiKeyEnv": "YOUTUBE_API_KEY",
+    "maxResultsPerQuery": 5,
+    "queries": [
+      "AI agents",
+      "agentic AI",
+      "OpenAI agent",
+      "Claude AI",
+      "Gemini AI",
+      "LLM agents",
+      "AI automation"
+    ]
+  },
+  "email": {
+    "from": "AI Radar <your-email@gmail.com>",
+    "to": [
+      "you@example.com"
+    ],
+    "subjectPrefix": "[AI Radar]",
+    "smtp": {
+      "hostEnv": "SMTP_HOST",
+      "portEnv": "SMTP_PORT",
+      "secureEnv": "SMTP_SECURE",
+      "userEnv": "SMTP_USER",
+      "passEnv": "SMTP_PASS"
+    }
+  }
+}

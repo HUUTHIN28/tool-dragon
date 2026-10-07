@@ -1,0 +1,17 @@
+{
+  "name": "demo-video-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "demo-video": "./scripts/demo-video.mjs"
+  },
+  "scripts": {
+    "check": "node --check scripts/demo-video.mjs",
+    "install-deps": "npm install --no-audit --no-fund && npx playwright install chromium"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.53.0"
+  }
+}

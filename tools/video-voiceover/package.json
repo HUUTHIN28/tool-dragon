@@ -1,0 +1,12 @@
+{
+  "name": "gemini-video-voiceover-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node video-voiceover.mjs check --pretty"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "workspace": {
+    "dbPath": "data/trend-search-db.json",
+    "rawRetentionDays": 45,
+    "minItemsPerCategory": 5,
+    "maxRuns": 50
+  },
+  "crawler": {
+    "allowNetwork": false,
+    "includeSampleFallback": true,
+    "timeoutMs": 8000,
+    "maxItemsPerSource": 20,
+    "maxItemsPerRun": 400,
+    "userAgent": "trend-search/0.1 (offline-first trend engine)"
+  },
+  "scoring": {
+    "lookbackHours": 168,
+    "competitionHints": {
+      "ai agents": 0.62,
+      "barrier repair": 0.48,
+      "on-device ai": 0.54,
+      "passkeys": 0.5,
+      "ai operating leverage": 0.42
+    }
+  },
+  "output": {
+    "language": "vi"
+  },
+  "categories": {
+    "ai": {
+      "enabled": true,
+      "keywords": [
+        "ai agents",
+        "ai agent",
+        "agentic workflows",
+        "agentic ai",
+        "autonomous ai agent",
+        "model evals",
+        "ai copilot",
+        "claude code",
+        "claude ai",
+        "ai agent builder",
+        "multimodal ai",
+        "open-source models",
+        "tool safety",
+        "ai automation"
+      ],
+      "sources": [
+        {
+          "name": "YouTube AI Agent Search",
+          "type": "youtube-invidious",
+          "query": "AI agent",
+          "instances": [
+            "https://inv.nadeko.net",
+            "https://yewtu.be",
+            "https://invidious.nerdvpn.de"
+          ],
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "YouTube Agentic AI Search",
+          "type": "youtube-invidious",
+          "query": "agentic AI",
+          "instances": [
+            "https://inv.nadeko.net",
+            "https://yewtu.be",
+            "https://invidious.nerdvpn.de"
+          ],
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "YouTube AI Automation Search",
+          "type": "youtube-invidious",
+          "query": "AI automation agents",
+          "instances": [
+            "https://inv.nadeko.net",
+            "https://yewtu.be",
+            "https://invidious.nerdvpn.de"
+          ],
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "TikTok AI Agent Search",
+          "type": "tiktok-tikwm",
+          "query": "AI agent",
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "TikTok Agentic AI Search",
+          "type": "tiktok-tikwm",
+          "query": "agentic AI",
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "TikTok hashtag aiagent",
+          "type": "tiktok-tikwm",
+          "tag": "aiagent",
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "YouTube Direct AI Agent Search",
+          "type": "youtube-search",
+          "enabled": false,
+          "query": "AI agent",
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "TikTok Direct AI Agent Search",
+          "type": "tiktok-search",
+          "enabled": false,
+          "query": "AI agent",
+          "maxItems": 20,
+          "timeoutMs": 8000
+        },
+        {
+          "name": "Google News AI Agents",
+          "type": "google-news-rss",
+          "enabled": false,
+          "url": "https://news.google.com/rss/search?q=%22AI%20agent%22%20OR%20%22agentic%20AI%22%20OR%20%22LLM%20agent%22&hl=en-US&gl=US&ceid=US:en",
+          "maxItems": 20
+        },
+        {
+          "name": "Google Trends Daily US",
+          "type": "google-trends-rss",
+          "enabled": false,
+          "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
+          "maxItems": 20
+        }
+      ]
+    },
+    "beauty": {
+      "enabled": true,
+      "keywords": [
+        "barrier repair",
+        "peptide lip",
+        "skin cycling",
+        "spf sticks",
+        "scalp care",
+        "clean fragrance",
+        "creator storefronts",
+        "minimal routines"
+      ],
+      "sources": [
+        {
+          "name": "Google News Beauty Trends",
+          "type": "google-news-rss",
+          "url": "https://news.google.com/rss/search?q=beauty%20trends%20OR%20skincare%20trend%20OR%20makeup%20trend&hl=en-US&gl=US&ceid=US:en",
+          "maxItems": 20
+        },
+        {
+          "name": "Reddit r/SkincareAddiction",
+          "type": "reddit",
+          "subreddit": "SkincareAddiction",
+          "sort": "hot",
+          "maxItems": 20
+        },
+        {
+          "name": "Reddit r/MakeupAddiction",
+          "type": "reddit",
+          "subreddit": "MakeupAddiction",
+          "sort": "hot",
+          "maxItems": 20
+        }
+      ]
+    },
+    "tech": {
+      "enabled": true,
+      "keywords": [
+        "on-device ai",
+        "passkeys",
+        "privacy computing",
+        "edge inference",
+        "developer tools",
+        "spatial computing",
+        "battery efficiency",
+        "security automation"
+      ],
+      "sources": [
+        {
+          "name": "Hacker News Developer Tools",
+          "type": "hackernews",
+          "query": "developer tools",
+          "maxItems": 20
+        },
+        {
+          "name": "Hacker News Security Automation",
+          "type": "hackernews",
+          "query": "security automation",
+          "maxItems": 20
+        },
+        {
+          "name": "Google News Tech Trends",
+          "type": "google-news-rss",
+          "url": "https://news.google.com/rss/search?q=technology%20trends%20OR%20developer%20tools%20OR%20cybersecurity&hl=en-US&gl=US&ceid=US:en",
+          "maxItems": 20
+        },
+        {
+          "name": "GitHub Trending",
+          "type": "github-trending",
+          "since": "daily",
+          "maxItems": 25,
+          "timeoutMs": 15000
+        },
+        {
+          "name": "Reddit r/technology",
+          "type": "reddit",
+          "subreddit": "technology",
+          "sort": "hot",
+          "maxItems": 20
+        }
+      ]
+    },
+    "business": {
+      "enabled": true,
+      "keywords": [
+        "ai operating leverage",
+        "fractional finance",
+        "vertical saas",
+        "pricing packaging",
+        "customer retention",
+        "automation roi",
+        "sales efficiency",
+        "cash discipline"
+      ],
+      "sources": [
+        {
+          "name": "Google News Business Trends",
+          "type": "google-news-rss",
+          "url": "https://news.google.com/rss/search?q=business%20trends%20automation%20OR%20startup%20growth%20OR%20AI%20business&hl=en-US&gl=US&ceid=US:en",
+          "maxItems": 20
+        },
+        {
+          "name": "Hacker News Startups",
+          "type": "hackernews",
+          "query": "startup growth",
+          "maxItems": 20
+        },
+        {
+          "name": "Reddit r/startups",
+          "type": "reddit",
+          "subreddit": "startups",
+          "sort": "hot",
+          "maxItems": 20
+        },
+        {
+          "name": "Reddit r/Entrepreneur",
+          "type": "reddit",
+          "subreddit": "Entrepreneur",
+          "sort": "hot",
+          "maxItems": 20
+        }
+      ]
+    }
+  }
+}

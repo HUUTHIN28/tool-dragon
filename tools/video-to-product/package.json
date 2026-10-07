@@ -1,0 +1,14 @@
+{
+  "name": "video-to-product-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local dependencies for the Video To Product Codex tool.",
+  "bin": {
+    "video-to-product": "./video-to-product.mjs"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "tesseract.js": "^6.0.1"
+  }
+}
